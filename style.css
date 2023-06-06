@@ -1,0 +1,1024 @@
+body{   font-family: 'Poppins', sans-serif; 
+        overflow: hidden;}
+.articlee{
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;}
+.articlee1{display: none;}
+.articlee1-1{
+    display: block;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 1;}
+#nikeLogo {
+    width: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.nikeLogo2 {
+    position: absolute;
+    width: 13rem;
+    left: 18rem;
+    top: 19.3rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: .5;
+}
+.nikeLogo2-1 {
+    position: absolute;
+    width: 13rem;
+    left: 18rem;
+    top: 19.3rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;
+}
+#navBar{list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35rem;
+    margin-top: -2rem;
+    margin-left: 20rem;
+    color: white;
+    text-shadow: 0px 0px 15px black;}
+#shoppingIcon{width: 2rem;
+    position: absolute;
+    z-index: 7;
+    cursor: pointer;
+    right: 10rem;
+    top: .9rem;}
+#user{    position: absolute;
+    width: 1.5rem;
+    right: 6rem;
+    z-index: 7;
+    cursor: pointer;
+    top: 1.1rem;}
+.oneBackground{width: 26rem;
+    height: 39.3rem;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, black, black);
+    position: absolute;
+    z-index: -1;}
+.towBackground{    width: 58.4rem;
+    height: 39.3rem;
+    top: 0;
+    right: 0;
+    background: linear-gradient(270deg, white, white);
+    position: absolute;
+    z-index: -1;}
+.airMax1{
+    transform: rotate(30deg);
+    margin-left: 12rem;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.95);
+    margin-top: -2rem;
+    animation-name: Air1-1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 2s;
+    animation-fill-mode: both;
+opacity: 0;}
+@keyframes Air1-1 {
+    0%
+    {
+        margin-left: -102rem;
+        opacity: 0.00;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100%
+    {
+        margin-left: 12rem;
+        opacity: 1;
+        transform: rotate(30deg);
+    }
+}
+.airMax1-2{   margin-top: -2rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;}
+.airMax1-1{        transform: rotate(30deg);
+    margin-left: 12rem;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.95);
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.95);
+    animation-name: Air1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+opacity: 1;}
+@keyframes Air1{
+    0%
+    {
+        margin-left: -102rem;
+    }
+    100%
+    {
+        margin-left: 12rem;
+    }
+}
+.airMax2{display: none;}
+.airMax2-1{  display: block;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.82);
+    margin-top: -34.9rem;
+    animation-name: Air2;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    margin-left: 9.5rem;
+}
+.airMax2-2{  
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;
+}
+@keyframes Air2{
+    0%
+    {
+        margin-left: -100.5rem;
+}
+    100%
+    {
+        margin-left: 9.5rem;
+}
+}
+.airMax3{    display: none;}
+.airMax3-1{    display: block;
+    margin-left: 9rem;
+    width: 1rem;
+    margin-top: -34.5rem;
+    z-index: -2;}
+.airMax3-2{    display: block;
+    margin-left: 9rem;
+    margin-top: -34.9rem;
+    z-index: 3;
+    animation-name: Air3;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;}
+.airMax3-3{  transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;
+z-index: -1;}
+@keyframes Air3{
+    0%
+    {
+        margin-left: -50rem;
+    }
+    100%
+    {
+        margin-left: 9rem;
+    }
+}
+.airMax4{display: none;}
+.airMax4-1{display: block;
+    margin-left: 12.5rem;
+    top: 4.3rem;
+    margin-top: 4rem;
+    position: absolute;
+    width: 22rem;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.95);
+    animation-name: Air4;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;}
+@keyframes Air4{
+    0%
+    {
+        margin-left: -50rem;
+    }
+    100%
+    {
+        margin-left: 12.5rem;
+    }
+}
+#luminousCircle{width: 20rem;
+    height: 20rem;
+    top: 12rem;
+    left: 14rem;
+    background: linear-gradient(135deg, #7a7a7a, black);
+    position: absolute;
+    z-index: -1;
+    border-radius: 31rem;
+    box-shadow: 0px 0px 70px #000000ba;}
+#basketballShoe{    margin-top: -23rem;
+    margin-left: 51.25rem;
+    letter-spacing: 8px;
+    font-family: 'Archivo', sans-serif;
+    font-size: .7rem;}
+#nameLogo{margin-top: 2rem;
+    margin-left: 49rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-transform: uppercase;}
+#ProductDescription{text-transform: capitalize;
+    font-size: .7rem;
+    width: 25rem;
+    margin-left: 70.2em;
+    letter-spacing: 1.5px;
+    color: #00000085;}
+#shopNow{background: black;
+    border: none;
+    color: white;
+    margin-left: 49rem;
+    margin-top: 6rem;
+    width: 10rem;
+    cursor: pointer;
+    height: 2rem;
+    letter-spacing: 1px;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 25px 0px #00000087;}
+.lookAtTheShoes1{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    filter: brightness(0);
+    opacity: .2;}
+.lookAtTheShoes1-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheShoes1-2{    display: none;}
+.lookAtTheShoes2{width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheShoes2-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheShoes2-2{  display: none;}
+.lookAtTheShoes3{width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    filter: brightness(0);
+    opacity: .2;}
+.lookAtTheShoes3-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);}
+.airMaxShos1{display: none;}
+.airMaxShos1-1{display: block;}
+.lookAtTheShoes3-2{display: none;}
+.lookAtTheShoes4{width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    filter: brightness(0);
+    opacity: .2;}
+.lookAtTheShoes4-1{
+    width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheShoes4-2{     display: none;}
+#airMaxLeft{    position: absolute;
+    left: 64.5rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;}
+#airMaxRight{    position: absolute;
+    left: 70rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+#airMaxRight:hover{
+    position: absolute;
+    left: 70rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    color: #ff00008c;
+    filter: drop-shadow(-5px 0px 5px #360000) drop-shadow(5px 0px 5px red);
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    -webkit-filter: drop-shadow(-5px 0px 5px #360000) drop-shadow(5px 0px 5px red);
+}
+.airMaxRight1{    display: none;}
+.airMaxRight1-1{    display: block;}
+.airMaxMode{    transition-delay: 5ms;
+    transition-duration: 1.5s;
+opacity: 0;}
+.airMaxMode1{    transition-delay: 5ms;
+    transition-duration: 1.5s;
+opacity: 1;}
+.transitionRed1{    width: 40rem;
+    height: 40rem;
+    top: 0;
+    left: 21rem;
+    z-index: -1;
+    background: linear-gradient(270deg, #360000, red);
+    position: absolute;
+    border-radius: 31rem;
+    transform: scale(2.1);
+    box-shadow: 0px 0px 70px #000000ba;}
+.defyAllDay{display: none;}
+.defyAllDayy{  display: block;
+    transition-delay: 7ms;
+    transition-duration: 1.5s;
+    opacity: 1;}
+.oneBackgroundDefyAllDay{    width: 26rem;
+    height: 39.3rem;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, black, red);
+    position: absolute;
+    z-index: -1;
+    background-size: 350%;}
+.towBackgroundDefyAllDay{    width: 58.4rem;
+    height: 39.3rem;
+    top: 0;
+    right: 0;
+    background: linear-gradient(270deg, white, #480000);
+    position: absolute;
+    z-index: -1;}
+.defyAllDay1 {transform: rotate(30deg);
+    margin-left: 12rem;
+    transition-delay: 5ms;
+    top: 1rem;
+    position: absolute;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    animation-name: Air1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 2s;
+    opacity: 1;}
+@keyframes Defy1{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12rem;
+    }
+}
+.defyAllDay1-3 {display: none;}
+.defyAllDay1-1 {transform: rotate(30deg);
+    margin-left: 12rem;
+    transition-delay: 5ms;
+    display: block;
+    top: 3rem;
+    position: absolute;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    animation-name: Defy1-1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    opacity: 1;}
+@keyframes Defy1-1{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12rem;
+    }
+}
+.defyAllDay1-2 {transform: rotate(30deg);
+    margin-left: 12rem;
+    top: 1rem;
+    position: absolute;
+    opacity: 0;}
+.defyAllDay2{margin-left: 9.3rem;
+    position: absolute;
+    opacity: 0;}
+.defyAllDay2-1{display: block;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.82);
+    top: 1.5rem;
+    position: absolute;
+    opacity: 1;
+    animation-name: Defy2;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    margin-left: 9.5rem;}
+@keyframes Defy2{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 9.5rem;
+    }
+}
+.defyAllDay2-2{margin-left: 9.3rem;
+    position: absolute;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    opacity: 0;}
+.defyAllDay3{    margin-left: 9.3rem;
+    position: absolute;
+    top: 1.5rem;
+    opacity: 0;}
+.defyAllDay3-1{    margin-left: 9.3rem;
+    position: absolute;
+    top: 1.5rem;
+    opacity: 1;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    animation-name: Defy3;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);}
+@keyframes Defy3{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 9.3rem;
+    }
+}
+.defyAllDay3-2{    margin-left: 9.3rem;
+    position: absolute;
+    top: 1.5rem;    transition-delay: 5ms;
+    transition-duration: 1s;
+    opacity: 0;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);}
+.defyAllDay4{
+    margin-left: 12.85rem;
+    position: absolute;
+    top: 9rem;
+    opacity: 0;
+    width: 21rem;}
+.defyAllDay4-1{    margin-left: 12.85rem;
+    position: absolute;
+    top: 9rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    animation-name: Defy4;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    opacity: 1;
+    width: 21rem;}
+@keyframes Defy4{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12.85rem;
+    }
+}
+.defyAllDay4-2{
+    margin-left: 12.85rem;
+    position: absolute;
+    top: 9rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    opacity: 0;;
+    width: 21rem;}
+.luminousCircleRed{width: 20rem;
+    height: 20rem;
+    top: 12rem;
+    left: 14rem;
+    background: linear-gradient(54deg, #6e0000, #9d0009);
+    position: absolute;
+    z-index: -1;
+    border-radius: 31rem;
+    box-shadow: inset 0px 0px 20px #ff0000, 0px 0px 50px #ff00004a;}
+.TrainingShoe{margin-top: -21.5rem;
+    margin-left: 51.25rem;
+    letter-spacing: 8px;
+    font-family: 'Archivo', sans-serif;
+    font-size: .7rem;}
+.nameLogoRed{    margin-top: 2rem;
+    margin-left: 52.5rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-transform: uppercase;}
+.ProductDescriptionDefyAllDay{text-transform: capitalize;
+    font-size: .7rem;
+    width: 25rem;
+    margin-left: 70.2em;
+    letter-spacing: 1.5px;
+    color: #00000085;}
+.shopNowRed{    background: linear-gradient(90deg, #bf0000, #5a0000);
+    color: white;
+    margin-left: 49rem;
+    margin-top: 6rem;
+    width: 10rem;
+    cursor: pointer;
+    height: 2rem;
+    letter-spacing: 1px;
+    border-radius: 2rem;
+    border: none;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 25px 0px #00000087;}
+.lookAtTheDefyAllDay1{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheDefyAllDay1-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);}
+.lookAtTheDefyAllDay1-2{    display:  none;}
+.lookAtTheDefyAllDay2{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheDefyAllDay2-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);}
+.lookAtTheDefyAllDay2-2{    display: none;}
+.lookAtTheDefyAllDay3{width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheDefyAllDay3-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheDefyAllDay3-2{display:  none;}
+.lookAtTheDefyAllDay4{ width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheDefyAllDay4-1{
+    width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheDefyAllDay4-2{ display: none;}
+#defyLeft{    position: absolute;
+    left: 65rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+#defyLeft:hover{   position: absolute;
+    left: 65rem;
+    color: #6c6c6c;
+    cursor: pointer;
+    filter: drop-shadow(-5px 0px 10px black) drop-shadow(5px 0px 10px #6c6c6c);
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+#defyRight{  display: block;
+    position: absolute;
+    left: 70rem;
+    cursor: pointer;
+    top: 34rem;
+    color: black;
+    font-size: 1.8rem;
+    z-index: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+#defyRight:hover{    position: absolute;
+    left: 70rem;
+    cursor: pointer;
+    top: 34rem;
+    color: rgb(76 164 255);
+    font-size: 1.8rem;
+    z-index: 1;
+    filter: drop-shadow(-5px 0px 6px rgb(0 108 219)) drop-shadow(5px 0px 6px rgb(0 108 219));
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+.defyRight1{    display: none;}
+.defyRight1-1{    display: block;}
+.defyAllDay1{
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 0;}
+.FreeRunNextNature{display: none;}
+.FreeRunNextNaturee{   display: block;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    opacity: 1;}
+.FreeRunNextNaturee1{   display: none;}
+.oneBackgroundFreeRunNextNature{width: 26rem;
+    height: 39.3rem;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #000000, #192136);
+    position: absolute;
+    z-index: -1;}
+.towBackgroundFreeRunNextNature{    width: 58.4rem;
+    height: 39.3rem;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, #192136, #0050b3);
+    position: absolute;
+    z-index: -1;}
+.luminousCircleBlue{
+    width: 20rem;
+    height: 20rem;
+    top: 12rem;
+    left: 14rem;
+    background: linear-gradient(0deg, #00316e, #0072ff);
+    position: absolute;
+    z-index: -1;
+    border-radius: 31rem;
+    box-shadow: inset 0px 0px 20px #0089ff, 0px 0px 50px #00a1ff59;}
+.FreeRunNextNature1{
+    transform: rotate(30deg);
+    margin-left: 12rem;
+    transition-delay: 5ms;
+    display: block;
+    top: 2.5rem;
+    position: absolute;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    animation-name: Nature1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    opacity: 1;}
+@keyframes Nature1 {
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12rem;
+    }
+}
+.FreeRunNextNature1-1{
+    transform: rotate(30deg);
+    margin-left: 12rem;
+    transition-delay: 5ms;
+    display: block;
+    top: 2.5rem;
+    position: absolute;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    animation-name: Nature1-1;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    opacity: 1;}
+@keyframes Nature1-1{
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12rem;
+    }
+}
+.FreeRunNextNature1-2{
+    transform: rotate(30deg);
+    margin-left: 12rem;
+    transition-delay: 5ms;
+    display: block;
+    top: 2.5rem;
+    position: absolute;
+    transition-duration: 1.5s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    opacity: 0;}
+.FreeRunNextNature2{    display: block;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.82);
+    top: 1.5rem;
+    position: absolute;
+    opacity: 0;
+    margin-left: 9.5rem;}
+.FreeRunNextNature2-1{    display: block;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.82);
+    top: 1.5rem;
+    position: absolute;
+    opacity: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    animation-name: Nature2;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    margin-left: 9.5rem;}
+@keyframes Nature2 {
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 9.5rem;
+    }
+}
+.FreeRunNextNature3{    margin-left: 9.3rem;
+    position: absolute;
+    top: 1.5rem;
+    opacity: 0;}
+.FreeRunNextNature3-1{    margin-left: 9.3rem;
+    position: absolute;
+    top: 1.5rem;
+    opacity: 1;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    animation-name: Nature3;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);}
+@keyframes Nature3 {
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 9.5rem;
+    }
+}
+    .FreeRunNextNature4{
+    margin-left: 12.85rem;
+    position: absolute;
+    top: 9rem;
+    opacity:0;
+    width: 21rem;
+}
+.FreeRunNextNature4-1{    margin-left: 12.85rem;
+    position: absolute;
+    top: 9rem;
+    transition-delay: 5ms;
+    transition-duration: 1s;
+    animation-name: Nature4;
+    animation-timing-function: cubic-bezier(0, 1.05, 0.62, 1);
+    animation-duration: 1s;
+    filter: drop-shadow(0px 35px 15px #0000008c) brightness(.9);
+    opacity: 1;
+    width: 21rem;}
+@keyframes Nature4 {
+    0%
+    {
+        opacity: 0.000;
+        margin-left: -90.5rem;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-left: 12.85rem;
+    }
+}
+.luminousCircleBlue {
+    width: 20rem;
+    height: 20rem;
+    top: 12rem;
+    left: 14rem;
+    background: linear-gradient(180deg, #001d6e, #0072ff);
+    position: absolute;
+    z-index: -1;
+    border-radius: 31rem;
+    box-shadow: inset 0px 0px 30px #0089ff, 0px 0px 50px #005aff57;}
+.nameLogoBlue{margin-left: 49.55rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-transform: uppercase;}
+.ProductDescriptionFreeRunNextNature{text-transform: capitalize;
+    font-size: xx-small;
+    width: 25rem;
+    margin-left: 87.19999999999999em;
+    letter-spacing: 1.5px;
+    color: #00000085;}
+.lookAtTheFreeRunNextNature1{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheFreeRunNextNature1-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 49.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);
+}
+.lookAtTheFreeRunNextNature1-2{display: none;}
+.lookAtTheFreeRunNextNature2{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheFreeRunNextNature2-1{
+    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 54.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+}
+.lookAtTheFreeRunNextNature2-2{    display: none;}
+.lookAtTheFreeRunNextNature3{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheFreeRunNextNature3-1{    width: 4rem;
+    position: absolute;
+    cursor: pointer;
+    left: 59.5rem;
+    top: 26.8rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);}
+.lookAtTheFreeRunNextNature3-2{    display: none;}
+.lookAtTheFreeRunNextNature4{width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    filter: brightness(0);
+    opacity: .2;
+    transition-delay: 5ms;
+    transition-duration: 1s;}
+.lookAtTheFreeRunNextNature4-1{width: 3.3rem;
+    position: absolute;
+    cursor: pointer;
+    left: 64.5rem;
+    top: 27.4rem;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    filter: brightness(1) drop-shadow(0px 0px 15px black);
+    opacity: 1;
+    border-bottom: 1px solid black;
+    -webkit-filter: brightness(1) drop-shadow(0px 0px 15px black);}
+.lookAtTheFreeRunNextNature4-2{display: none;}
+.shopNowBlue{
+    background: linear-gradient(180deg, #0052b7, #00305a);
+    color: white;
+    margin-left: 49rem;
+    margin-top: 6rem;
+    width: 10rem;
+    cursor: pointer;
+    height: 2rem;
+    letter-spacing: 1px;
+    border-radius: 2rem;
+    border: none;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 25px 0px #00000087, inset 0px 6px 8px 0px #ffffff3b;}
+#FreeRunNextNatureLeft{position: absolute;
+    left: 65rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    transition-delay: 5ms;
+    transition-duration: 1.5s;}
+#FreeRunNextNatureLeft:hover{position: absolute;
+    left: 65rem;
+    cursor: pointer;
+    top: 34rem;
+    font-size: 1.8rem;
+    z-index: 1;
+    color: #ff00008c;
+    filter: drop-shadow(-5px 0px 5px #360000) drop-shadow(5px 0px 5px red);
+    transition-delay: 5ms;
+    transition-duration: 1.5s;
+    -webkit-filter: drop-shadow(-5px 0px 5px #360000) drop-shadow(5px 0px 5px red);}

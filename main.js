@@ -1,0 +1,185 @@
+let article = document.getElementById ('article');
+let nikeLogo2 = document.getElementById ('nikeLogo2');
+let airMax1 = document.getElementById ('airMax1');
+let airMax2 = document.getElementById ('airMax2');
+let airMax3 = document.getElementById ('airMax3');
+let airMax4 = document.getElementById ('airMax4');
+let airMaxShos = document.getElementById ('airMaxShos');
+let lookAtTheShoes1 = document.getElementById ('lookAtTheShoes1');
+let lookAtTheShoes2 = document.getElementById ('lookAtTheShoes2');
+let lookAtTheShoes3 = document.getElementById ('lookAtTheShoes3');
+let lookAtTheShoes4 = document.getElementById ('lookAtTheShoes4');
+let airMaxRight = document.getElementById ('airMaxRight');
+let airMaxMode = document.getElementById ('airMaxMode');
+let nikeLogoRed = document.getElementById ('nikeLogoRed');
+let defyAllDay = document.getElementById ('defyAllDay');
+let defyAllDay1 = document.getElementById ('defyAllDay1');
+let defyAllDay2 = document.getElementById ('defyAllDay2');
+let defyAllDay3 = document.getElementById ('defyAllDay3');
+let defyAllDay4 = document.getElementById ('defyAllDay4');
+let lookAtTheDefyAllDay1 = document.getElementById ('lookAtTheDefyAllDay1');
+let lookAtTheDefyAllDay2 = document.getElementById ('lookAtTheDefyAllDay2');
+let lookAtTheDefyAllDay3 = document.getElementById ('lookAtTheDefyAllDay3');
+let lookAtTheDefyAllDay4 = document.getElementById ('lookAtTheDefyAllDay4');
+let defyLeft = document.getElementById ('defyLeft');
+let defyRight = document.getElementById ('defyRight');
+let FreeRunNextNature = document.getElementById ('FreeRunNextNature');
+let FreeRunNextNature1 = document.getElementById ('FreeRunNextNature1');
+let FreeRunNextNature2 = document.getElementById ('FreeRunNextNature2');
+let FreeRunNextNature3 = document.getElementById ('FreeRunNextNature3');
+let FreeRunNextNature4 = document.getElementById ('FreeRunNextNature4');
+let lookAtTheFreeRunNextNature1 = document.getElementById ('lookAtTheFreeRunNextNature1');
+let lookAtTheFreeRunNextNature2 = document.getElementById ('lookAtTheFreeRunNextNature2');
+let lookAtTheFreeRunNextNature3 = document.getElementById ('lookAtTheFreeRunNextNature3');
+let lookAtTheFreeRunNextNature4 = document.getElementById ('lookAtTheFreeRunNextNature4');
+lookAtTheShoes1.addEventListener ("click", function() {
+    airMax1.classList .toggle ('airMax1-1');
+    airMax2.classList .toggle ('airMax2-2');
+    article.classList = ('articlee1-1');
+    airMax3.classList.toggle ('airMax3-3');
+    nikeLogo2.classList.toggle ('nikeLogo2-1');
+    lookAtTheShoes1.classList.toggle ('lookAtTheShoes1-1');
+    lookAtTheShoes2.classList.toggle ('lookAtTheShoes2-2');
+    lookAtTheShoes3.classList.toggle ('lookAtTheShoes3-2');
+    lookAtTheShoes4.classList.toggle ('lookAtTheShoes4-2');});
+lookAtTheShoes2.addEventListener ("click", function() {
+    airMax1.classList = ('airMax1-1');
+    airMax1.classList = ('airMax1-2');
+    article.classList = ('articlee1-1');
+    airMax2.classList .toggle ('airMax2-1');
+    airMax3.classList.toggle ('airMax3-3');
+    nikeLogo2.classList.toggle ('nikeLogo2-1');
+    lookAtTheShoes1.classList.toggle ('lookAtTheShoes1-2');
+    lookAtTheShoes2.classList.toggle ('lookAtTheShoes2-1');
+    lookAtTheShoes3.classList.toggle ('lookAtTheShoes3-2');
+    lookAtTheShoes4.classList.toggle ('lookAtTheShoes4-2');});
+lookAtTheShoes3.addEventListener ("click", function() {
+    airMax1.classList = ('airMax1-1');
+    airMax1.classList = ('airMax1-2');
+    article.classList = ('articlee1-1');
+    airMax2.classList.toggle ('airMax2-2');
+    airMax3.classList.toggle ('airMax3-2');
+    nikeLogo2.classList.toggle ('nikeLogo2-1');
+    lookAtTheShoes1.classList.toggle ('lookAtTheShoes1-2');
+    lookAtTheShoes2.classList.toggle ('lookAtTheShoes2-2');
+    lookAtTheShoes3.classList.toggle ('lookAtTheShoes3-1');
+    lookAtTheShoes4.classList.toggle ('lookAtTheShoes4-2');});
+lookAtTheShoes4.addEventListener ("click", function() {
+    airMax1.classList = ('airMax1-1');
+    airMax1.classList = ('airMax1-2');
+    article.classList = ('articlee1-1');
+    airMax2.classList.toggle ('airMax2-2');
+    airMax3.classList.toggle ('airMax3-3');
+    airMax4.classList.toggle ('airMax4-1');
+    nikeLogo2.classList.toggle ('nikeLogo2-1');
+    lookAtTheShoes1.classList.toggle ('lookAtTheShoes1-2');
+    lookAtTheShoes2.classList.toggle ('lookAtTheShoes2-2');
+    lookAtTheShoes3.classList.toggle ('lookAtTheShoes3-2');
+    lookAtTheShoes4.classList.toggle ('lookAtTheShoes4-1');});
+airMaxRight.addEventListener ("click", function() {
+    article.classList = ('articlee');
+    defyAllDay.classList = ('defyAllDayy');
+    airMaxShos.classList = ('airMaxShos1');
+    airMaxMode.classList = ('airMaxMode');
+    airMaxMode.classList = ('airMaxMode1')
+    defyAllDay1.classList = ('defyAllDay1-1');
+    nikeLogoRed.classList = ('nikeLogo2');
+    lookAtTheDefyAllDay1.classList = ('lookAtTheDefyAllDay1');
+    lookAtTheDefyAllDay2.classList = ('lookAtTheDefyAllDay2');
+    lookAtTheDefyAllDay3.classList = ('lookAtTheDefyAllDay3');
+    lookAtTheDefyAllDay4.classList = ('lookAtTheDefyAllDay4');});
+lookAtTheDefyAllDay1.addEventListener ("click", function() {
+    defyAllDay1.classList .toggle ('defyAllDay1-1');
+    defyAllDay2.classList .toggle ('defyAllDay2-2');
+    defyAllDay3.classList.toggle ('defyAllDay3-2');
+    defyAllDay4.classList.toggle ('defyAllDay4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheDefyAllDay1.classList.toggle ('lookAtTheDefyAllDay1-1');
+    lookAtTheDefyAllDay2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheDefyAllDay3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheDefyAllDay4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheDefyAllDay2.addEventListener ("click", function() {
+    defyAllDay1.classList = ('defyAllDay1-2');
+    defyAllDay2.classList .toggle ('defyAllDay2-1');
+    defyAllDay3.classList.toggle ('defyAllDay3-2');
+    defyAllDay4.classList.toggle ('defyAllDay4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheDefyAllDay1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheDefyAllDay2.classList.toggle ('lookAtTheDefyAllDay2-1');
+    lookAtTheDefyAllDay3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheDefyAllDay4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheDefyAllDay3.addEventListener ("click", function() {
+    defyAllDay1.classList = ('defyAllDay1-2');
+    defyAllDay1.classList = ('defyAllDay1-3');
+    defyAllDay2.classList .toggle ('defyAllDay2-2');
+    defyAllDay3.classList.toggle ('defyAllDay3-1');
+    defyAllDay4.classList.toggle ('defyAllDay4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheDefyAllDay1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheDefyAllDay2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheDefyAllDay3.classList.toggle ('lookAtTheDefyAllDay3-1');
+    lookAtTheDefyAllDay4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheDefyAllDay4.addEventListener ("click", function() {
+    defyAllDay1.classList = ('defyAllDay1-2');
+    defyAllDay1.classList = ('defyAllDay1-3');
+    defyAllDay2.classList .toggle ('defyAllDay2-2');
+    defyAllDay3.classList.toggle ('defyAllDay3-2');
+    defyAllDay4.classList.toggle ('defyAllDay4-1');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheDefyAllDay1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheDefyAllDay2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheDefyAllDay3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheDefyAllDay4.classList.toggle ('lookAtTheDefyAllDay4-1');});
+defyLeft.addEventListener ("click", function() {
+    defyAllDay.classList = ('defyAllDay');
+    article.classList = ('articlee1-1');
+    airMaxMode.classList = ('airMaxMode1')
+    FreeRunNextNature.classList = ('FreeRunNextNaturee1');
+    airMaxShos.classList = ('airMaxShos1-1')});
+defyRight.addEventListener ("click", function() {
+    defyAllDay.classList = ('defyAllDay');
+    article.classList = ('articlee');
+    defyRight.classList = ('defyRight1');
+    airMaxRight.classList = ('airMaxRight1');
+    airMaxMode.classList = ('airMaxMode1');
+    FreeRunNextNature.classList = ('FreeRunNextNaturee');});
+lookAtTheFreeRunNextNature1.addEventListener ("click", function() {
+    FreeRunNextNature1.classList.toggle ('FreeRunNextNature1-1');
+    FreeRunNextNature2.classList .toggle ('FreeRunNextNature2-2');
+    FreeRunNextNature3.classList.toggle ('FreeRunNextNature3-2');
+    FreeRunNextNature4.classList.toggle ('FreeRunNextNature4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheFreeRunNextNature1.classList.toggle ('lookAtTheDefyAllDay1-1');
+    lookAtTheFreeRunNextNature2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheFreeRunNextNature3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheFreeRunNextNature4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheFreeRunNextNature2.addEventListener ("click", function() {
+    FreeRunNextNature1.classList = ('FreeRunNextNature1-2');
+    FreeRunNextNature2.classList .toggle ('FreeRunNextNature2-1');
+    FreeRunNextNature3.classList.toggle ('FreeRunNextNature3-2');
+    FreeRunNextNature4.classList.toggle ('FreeRunNextNature4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheFreeRunNextNature1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheFreeRunNextNature2.classList.toggle ('lookAtTheDefyAllDay2-1');
+    lookAtTheFreeRunNextNature3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheFreeRunNextNature4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheFreeRunNextNature3.addEventListener ("click", function() {
+    FreeRunNextNature1.classList = ('FreeRunNextNature1-2');
+    FreeRunNextNature2.classList .toggle ('FreeRunNextNature2-2');
+    FreeRunNextNature3.classList.toggle ('FreeRunNextNature3-1');
+    FreeRunNextNature4.classList.toggle ('FreeRunNextNature4-2');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheFreeRunNextNature1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheFreeRunNextNature2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheFreeRunNextNature3.classList.toggle ('lookAtTheDefyAllDay3-1');
+    lookAtTheFreeRunNextNature4.classList.toggle ('lookAtTheDefyAllDay4-2');});
+lookAtTheFreeRunNextNature4.addEventListener ("click", function() {
+    FreeRunNextNature1.classList = ('FreeRunNextNature1-2');
+    FreeRunNextNature2.classList .toggle ('FreeRunNextNature2-2');
+    FreeRunNextNature3.classList.toggle ('FreeRunNextNature3-2');
+    FreeRunNextNature4.classList.toggle ('FreeRunNextNature4-1');
+    nikeLogoRed.classList.toggle ('nikeLogo2-1');
+    lookAtTheFreeRunNextNature1.classList.toggle ('lookAtTheDefyAllDay1-2');
+    lookAtTheFreeRunNextNature2.classList.toggle ('lookAtTheDefyAllDay2-2');
+    lookAtTheFreeRunNextNature3.classList.toggle ('lookAtTheDefyAllDay3-2');
+    lookAtTheFreeRunNextNature4.classList.toggle ('lookAtTheDefyAllDay4-1');});
